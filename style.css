@@ -44,6 +44,16 @@ svg{
     margin-top: 10px;
 }
 
+.content p{
+    line-height:1.7;
+    
+}
+
+.content__about{
+    font-size: 14px;
+
+}
+
 .learn{
     background-color: var(--Yellow);
     display: inline;
@@ -78,7 +88,8 @@ svg{
 }
 
 .profile-img{
-    display: flex;   
+    display: flex; 
+    margin-top:25px;  
 }
 
 .logo-img{
