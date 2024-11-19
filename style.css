@@ -20,22 +20,26 @@ body{
     align-items: center;
     justify-content: center;
     min-height:100vh;
+    
 }
 
 .wrapper{
     background-color: var(--White);
-    width: 22rem;
+    max-width: 22rem;
     padding:1.375rem 1.375rem 0.938rem 1.37rem;
     border-radius:20px;
     border:1px solid black;
     box-shadow: 10px 10px 1px black;
     
+    
 }
 
+    
 .img-container{
-    width:355px;
+        max-width:22.188rem;
+    }
 
-}
+
 img{
     display: block;
     width: 100%;
@@ -44,7 +48,7 @@ img{
     margin: 0;
 }
 .content{
-    margin-top: 30px;
+    margin-top: 1.875rem;
 }
 
 .content p{
@@ -60,7 +64,7 @@ img{
 .learn{
     background-color: var(--Yellow);
     display: inline;
-    padding: 5px 12px;
+    padding: 0.313rem 0.75rem;
     font-weight: 800;
     border-radius: 4px;
     font-size:14px;
